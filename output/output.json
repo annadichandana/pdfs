@@ -1,0 +1,70 @@
+{
+  "metadata": {
+    "documents": [
+      "rrpreport.pdf",
+      "sample_ai_outline.pdf"
+    ],
+    "persona": "Undergraduate Chemistry Student",
+    "job_to_be_done": "Identify key concepts and mechanisms for exam preparation on reaction kinetics",
+    "timestamp": "2025-07-28T17:14:44.016737"
+  },
+  "extracted_sections": [
+    {
+      "document": "rrpreport.pdf",
+      "page": 44,
+      "section_title": "44 Fig. 5.2.13: Room Details Fig. 5.2.13: Room Det...",
+      "importance_rank": 1
+    },
+    {
+      "document": "rrpreport.pdf",
+      "page": 48,
+      "section_title": "48 6.2 UNIQUE SELLING POINT (USP) Unlike tradition...",
+      "importance_rank": 2
+    },
+    {
+      "document": "rrpreport.pdf",
+      "page": 15,
+      "section_title": "15 The existing systems suffer from several key li...",
+      "importance_rank": 3
+    },
+    {
+      "document": "rrpreport.pdf",
+      "page": 37,
+      "section_title": "37 5.2 RESULTS: The Hostel Room Allotment System s...",
+      "importance_rank": 4
+    },
+    {
+      "document": "rrpreport.pdf",
+      "page": 11,
+      "section_title": "11 ABSTRACT Generally, administrators who allot ro...",
+      "importance_rank": 5
+    }
+  ],
+  "subsection_analysis": [
+    {
+      "document": "rrpreport.pdf",
+      "refined_text": "44 Fig. 5.2.13: Room Details Fig. 5.2.13: Room Details includes Student Room Number and the roommates of the student who are allotted to the same room so that the student can have contact with the roommates. Fig 5.2.14:Student Information Fig 5.2.14:Student Information includes key personal details such as name, roll number, email, phone number, branch, and academic year.These details are visible in the student dashboard and are also used during room allocation.Maintaining accurate student data ensures proper room assignments and communication.",
+      "page": 44
+    },
+    {
+      "document": "rrpreport.pdf",
+      "refined_text": "48 6.2 UNIQUE SELLING POINT (USP) Unlike traditional allotment systems that rely on manual processes or static forms, our Hostel Room Allotment System stands out by offering: •Automated & Smart Allocation: Reduces admin workload by suggesting optimal room allocations based on seat availability and student details like branch or year. •Real-time Room Insights: Displays up-to-date occupancy, availability, and roommate info, ensuring transparency for students and staff. •Simple, Role-based Access: Clean and secure login system with personalized dashboards for students and admin. •Visual Dashboards: Integrated charts and tables for room occupancy and student distribution, aiding faster decisions. •AR/3D Room Preview (Optional Extension): An immersive way for students to explore their allocated rooms virtually using WebXR and Three.js. •Smart Notifications: Email-based password recovery and future potential for allotment alerts and reminders. 6.3 . � FUTURE SCOPE •Automated Smart Allotment: Add intelligent algorithms to suggest optimal room assignments based on branch, year, preferences, or gender. •Multi-hostel support: Extend the system to manage multiple hostels or campuses under a unified admin dashboard. •AR-based Room Tour: Enhance room visualization using WebXR and 3D walkthroughs for an immersive student preview experience. •Admin Analytics Dashboard: Add insights like allocation efficiency, vacancy trends, or heatmaps for decision-making. •Notification System: Integrate email/SMS alerts for room allotment, deadline reminders, and announcement",
+      "page": 48
+    },
+    {
+      "document": "rrpreport.pdf",
+      "refined_text": "15 The existing systems suffer from several key limitations such as •No real-time room availability tracking. •Lack of user-friendly interfaces for students and admins. •Manual allotment leads to errors and delays. •No room preview or layout visualization for students. •Absence of role-based login access and secure authentication. •No integration of modern features like email notifications or AR. 2.2 OUR VALUE PROPOSITION: Our Hostel Room Allotment System solves the common problems seen in manual and outdated hostel allocation methods. Instead of relying on spreadsheets or paper-based processes, our system offers a smart and automated solution. It allows students to check room availability in real-time, submit their preferences, and even explore rooms virtually using 3D or AR-based visualization. The admin can easily manage student data, room status, and allotments through a clean and easy-to-use dashboard. The system also sends email updates and supports password resets, making it smooth and user-friendly for both students and administrators. Overall, it brings more transparency, reduces workload, and improves the entire hostel allocation experience.",
+      "page": 15
+    },
+    {
+      "document": "rrpreport.pdf",
+      "refined_text": "37 5.2 RESULTS: The Hostel Room Allotment System successfully achieved its core objectives and delivered the following key results: •Students were able to log in, view their personal and room details, and even see their roommates. •Admins were able to: •View/add/edit students •Add rooms and track room occupancy •Allocate rooms based on real-time bed availability •An interactive occupancy chart was generated showing the current room-wise status. •Students received password reset emails via the built-in forgot password feature. • Role-based login and logout worked seamlessly, ensuring session security.",
+      "page": 37
+    },
+    {
+      "document": "rrpreport.pdf",
+      "refined_text": "11 ABSTRACT Generally, administrators who allot rooms to students rely on static lists or manual selection without a clear idea of the room’s availability and amenities. With AR- based 3D modelling, they can virtually explore available rooms before allotting rooms. The system will display real time room availability, occupancy details, furniture, amenities, and other essential information when they search for rooms. This eliminates uncertainty and enhances the overall hostel allocation experience and it also reduces clashes. The Hostel Allocation System is a web-based application that helps allocate hostel rooms to students efficiently based on availability, preferences, and predefined rules. It aims to reduce manual effort and provide a smooth allocation process for both students and administrators. Our Hostel Room Allotment System uses Django (Python) for backend, MySQL for database, and Django Auth System for authentication. The frontend is built with HTML, CSS, and JavaScript. WebXR and Three.js enable AR-based 3D visualization, allowing students to explore their assigned rooms virtually.",
+      "page": 11
+    }
+  ]
+}
